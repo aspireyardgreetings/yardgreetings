@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Celebrate Yard Greetings</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    header, nav, footer { background-color: #f4a261; color: white; padding: 1em; text-align: center; }
+    header img { max-width: 150px; height: auto; display: block; margin: 0 auto 10px; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 2em; }
+    form input, form select, form textarea, form button {
+      display: block; width: 100%; margin-bottom: 1em; padding: 0.5em;
+    }
+    .form-container { max-width: 600px; margin: auto; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Aspire Yard Greetings Logo" />
+  <h1>Celebrate Yard Greetings</h1>
+  <p>Reserve Your Signs Now!</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About Us</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#policy">Rental Policy</a>
+  <a href="#photos">Photos</a>
+  <a href="#reservations">Reservations</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome to Celebrate Yard Greetings!</h2>
+  <p>Make your next celebration unforgettable with a yard sign greeting!</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>We create colorful, fun, and personalized yard greetings for all occasions: Birthdays, Baby Showers, Graduations, Anniversaries, and more.</p>
+</section>
+
+<section id="pricing">
+  <h2>Pricing</h2>
+  <ul>
+    <li>Basic Greeting Package – $75</li>
+    <li>Deluxe Greeting Package – $100</li>
+    <li>Custom Add-ons – Prices Vary</li>
+  </ul>
+</section>
+
+<section id="policy">
+  <h2>Rental Policy</h2>
+  <p>All signs are rental-only and will be delivered, installed, and removed by our team. Please avoid moving or damaging the signs. Full policy details provided at booking.</p>
+</section>
+
+<section id="photos">
+  <h2>Photos</h2>
+  <p>Gallery coming soon!</p>
+</section>
+
+<section id="reservations">
+  <h2>Reservation Request Form</h2>
+  <div class="form-container">
+    <form action="mailto:aspireyardgreetings@yahoo.com" method="POST" enctype="text/plain">
+      <label>Name*</label>
+      <input type="text" name="Name" required />
+
+      <label>Email*</label>
+      <input type="email" name="Email" required />
+
+      <label>Phone Number*</label>
+      <input type="tel" name="Phone" required />
+
+      <label>Date of Interest*</label>
+      <input type="date" name="Date" required />
+
+      <label>Event Type*</label>
+      <input type="text" name="Event Type" placeholder="Ex: Birthday, Graduation, Baby Shower" required />
+
+      <label>Address for Setup*</label>
+      <textarea name="Address" rows="3" required></textarea>
+
+      <label>Name/Theme/Message*</label>
+      <textarea name="ThemeMessage" rows="3" placeholder="Enter greeting theme, honoree name, age, etc." required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>Follow us on Instagram: @aspireyardgreetings</p>
+  <p>Call or Text: 832-295-3677</p>
+  <p>Email: aspireyardgreetings@yahoo.com</p>
+</footer>
+
+</body>
+</html>
